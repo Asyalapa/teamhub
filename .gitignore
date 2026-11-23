@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Окружение и секреты
+.env
+.env.*
+!.env.example
+
+# IDE / ОС
+.idea/
+.vscode/
+.DS_Store
+
+# Артефакты линтинга SQL
+*.dump.sql
+
+# Node (пригодится на Этапе 1)
+node_modules/
+dist/
+
+# Локальное хранилище файлов (PDF согласий)
+storage/
+
+# Сборка документации
+docs/_build/
